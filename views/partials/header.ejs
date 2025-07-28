@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>pinertrest</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="/stylesheets/style.css">
+
+</head>
+
+<% if(nav===true) { %>
+  <div class="flex py-2 px-5 w-full justify-between bg-white">
+    <h3 class="font-bold">Pinertrest</h3>
+    <div class="flex gap-5 items-center">
+      <a href="/profile">profile</a><a href="/feed">feed</a><a class="bg-red-600 px-2 py-1 rounded-lg text-white"
+        href="/logout">Logout</a>
+    </div>
+  </div>
+  <% } %>
+
+    <body>
